@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Latorre Corp.</title>    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
+    <link rel="icon" href="Imágenes/Icono LC.ico" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">    
+    <link rel="stylesheet" href="CSS/LoginEstilos.css">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italianno&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="d-flex align-items-center" sytle="min-height: 100vh;">
+    <form name="login" class="w-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 m-auto">
+                    <img src="Imágenes/Logo.png" alt="Logo" class="img-fluid my-3">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="usuario" placeholder="Usuario">
+                        <label for="Usuario">Usuario</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="password" placeholder="Password">
+                        <label for="Usuario">Contraseña</label>
+                    </div>
+                    <div class="form-check text-start my-3">
+                        <input class="form-check-input" type="checkbox" id="recordar">
+                        <label class="form-check-label" for="recordar">Recordar</label>
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 my-2 py-2" onclick="Login()">Iniciar Sesion</button>
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        function Login(){
+            var usuario=document.login.usuario.value;
+            var password=document.login.password.value;
+
+            if(usuario == "Paul" && password == "Latorre"){
+                alert("Bienvenido")
+                window.location="index.html"            
+            }else{
+                alert("Usuario Incorrecto") 
+            }
+        }            
+    </script>
+</body>
+</html>

@@ -1,0 +1,466 @@
+body{    
+    background: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0)), url('../Imágenes/Logos/FONDO.jpg');    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+/* ============================== INDEX.HTML ============================== */
+
+/* ============================== Encabezado ============================== */
+.encabezado{
+    font-size: 3rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #03b0eb;
+    text-shadow: 1px  0px 0px white,
+               0px  1px 0px white,
+              -1px  0px 0px white,
+               0px -1px 0px white;
+    line-height: 2.4rem;
+}
+.subencabezado{
+    font-size: 5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: #03b0eb;
+    text-shadow: 1px  0px 0px white,
+               0px  1px 0px white,
+              -1px  0px 0px white,
+               0px -1px 0px white;
+    line-height: 5rem;
+}
+.fa-shopping-cart{
+    font-size: 1.4rem;
+}
+.sociales ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;    
+}
+.sociales ul li{
+    position: relative;
+    display: inline-block;    
+}
+.sociales ul li a{
+    padding: 0.6rem;
+    font-size: 3rem;
+    color: #305296;
+}
+.sociales ul li a:hover{    
+    color: #8f0408;
+}
+
+/* ============================== Navegación ============================== */
+.navegacion{
+    background-color: #305296;        
+}
+.navbar-toggler{
+    background-color: #03b0eb
+}
+.navbar-brand{
+    color:#03b0eb;
+    font-family: "Bangers", system-ui;    
+}
+.nav-link{
+    color: white;
+    font-family: "Bangers", system-ui;
+    font-size: 2.2rem;    
+}
+.nav-link:hover{
+    color: black;
+    background-color: #03b0eb;
+    transition: 0.5s;
+}
+.dropdown-menu{    
+    background-color: #8f0408;
+    width: 260px;
+}
+.dropdown-item{    
+    text-align: center;
+    color:white;    
+    font-family: "Bangers", system-ui; 
+    font-size: 2rem;
+}
+.dropdown-item:hover{    
+    background-color: #a93e41;
+}
+
+
+/* ============================== Slider ============================== */
+.carousel-caption h3{
+    font-family: "Bangers", system-ui;  
+    font-size: 6rem;
+    font-weight: 900;
+    color: #8f0408;
+    text-shadow: 2px  0px 0px white,
+               0px  2px 0px white,
+              -2px  0px 0px white,
+               0px -2px 0px white;   
+}
+
+/* ============================== Productos destacados ============================== */
+.nuevo-sitio p{
+    font-family: 'Lato';
+    color: #979797;
+    font-size: 1.6rem;    
+}
+.imagen-destacados{
+    border: 6px solid white;
+    background-color: white; 
+    height: 450px;
+    width: 300px;        
+    justify-content: center;
+    align-items: center;    
+}
+.imagen-destacados img{
+    border: 6px solid white;
+    background-color: white;    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.imagen-destacados img:hover{
+    transform: scale(1.1) rotate(5deg);
+    transition: 0.5s;
+}
+.destacados-info{
+    background-color: white;
+    margin-top: -0.3rem;
+}
+.destacados-info .btn-primary{
+    border-radius: 0px;
+    border: none;
+    background-color: #305296;
+    width: 100%;
+    padding: 1px;
+}
+.destacados-info .btn-primary:hover{
+    background-color: #8f0408;
+}
+
+/* ============================== Novedades ============================== */
+.novedades .card{                 
+    border: 6px solid white;
+    background-color: white; 
+    height: 600px;
+    width: 300px;        
+    justify-content: center;
+    align-items: center;   
+}
+.novedades .card a{
+    color: #000000;
+    text-decoration: none;
+}
+.novedades .card a:hover{
+    opacity: 0.5;
+}
+.novedades .card h3{
+    color: #305296;        
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+}
+.novedades .card p{    
+    font-size: 0.8rem;
+}
+.novedades .card .precio{
+    color: #305296;       
+    font-size: 1.6rem;
+}
+/* .imagen-novedades{
+    border: 6px solid white;
+    background-color: white; 
+    height: 300px;
+    width: 300px;        
+    justify-content: center;
+    align-items: center;    
+} */
+.imagen-novedades img{
+    border: 6px solid white;
+    background-color: white;    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.imagen-novedades img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* ============================== Cómic Peruano ============================== */
+.cómic-peruano .card{                 
+    border: 6px solid white;
+    background-color: white; 
+    height: 660px;
+    width: 300px;        
+    justify-content: center;
+    align-items: center;   
+}
+.cómic-peruano .card a{
+    color: #000000;
+    text-decoration: none;
+}
+.cómic-peruano .card a:hover{
+    opacity: 0.5;
+}
+.cómic-peruano .card h3{
+    color: #305296;        
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.cómic-peruano .card p{    
+    font-size: 0.8rem;
+}
+.cómic-peruano .card-body{         
+    height: 150px;    
+}
+.cómic-peruano .card-text{
+    color: #8f0408;      
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem !important;
+    font-weight: bolder;
+}
+.cómic-peruano .card .precio{
+    color: #305296;       
+    font-size: 1.6rem;
+}
+.imagen-cómic-peruano img{
+    border: 6px solid white;
+    background-color: white;    
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+.imagen-cómic-peruano img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.cómic-peruano .card-footer{
+    border: 2px solid white;
+    background-color: white;
+}
+
+/* ============================== Pedidos ============================== */
+.pedidos {
+    position: relative;
+    background-image: url('../Imágenes/Pedidos/BANNER\ PEDIDOS\ 2.webp');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #61ff52d0;    
+}
+
+.pedidos::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Color oscuro semitransparente */
+    z-index: 1;
+}
+
+.pedidos .row {
+    position: relative;
+    z-index: 2; /* Para asegurar que el texto esté por encima del overlay oscuro */
+}
+  
+.pedidos-textotitulo{    
+    font-weight: bolder;    
+    font-size: 4rem;
+    text-shadow: 2px  0px 0px #8f0408,
+               0px  2px 0px #8f0408,
+              -2px  0px 0px #8f0408,
+               0px -2px 0px #8f0408;  
+}
+.pedidos-texto{
+    font-weight: bolder;
+    font-size: 2.5rem;    
+    text-shadow: 2px  0px 0px #8f0408,
+               0px  2px 0px #8f0408,
+              -2px  0px 0px #8f0408,
+               0px -2px 0px #8f0408;  
+}
+@media(min-width: 992px){
+    .citas{
+        background-size:cover;
+    }
+}
+.citas h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 3.5rem;
+}
+.citas p{    
+    font-size: 1.2rem;
+    line-height: 2.6rem;
+}
+.btn-primarySearch{
+    background-color: #8f0408;
+    color: white;
+    border:0;
+    padding:0.8rem 1rem;
+    border-radius: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+.btn-primarySearch:hover{
+    background-color: #a93e41;
+    color: white;
+}
+.btn-primary{
+    background-color: #8f0408;
+    border:0;
+    padding:0.8rem 1rem;
+    border-radius: 5px;    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+}
+.btn-primary:hover{
+    background-color: #a93e41;
+}
+.btn-dark{
+    background-color: #305296;    
+    border:0;
+    padding:0.8rem 1rem;
+    border-radius: 5px;    
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
+    color: white !important;
+}
+.btn-dark:hover{
+    background-color: #03b0eb;
+    color: white !important;;
+}
+.form-control{
+    border-radius: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* ============================== En Construcción ============================== */
+.image-construccion{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-construccion img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+}
+
+/* ============================== Prueba ============================== */
+.image-prueba {
+    position: relative;
+    text-align: center;    
+    display: flex;
+    justify-content: center;
+    align-items: center;        
+}
+
+.main-image {
+    width: 85%; /* La imagen principal ocupa el 100% del contenedor */    
+    align-items: center; 
+}
+
+/* .image-prueba img {
+  width: 50%;
+  height: 50%;  
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+} */
+
+.overlay-container {
+    position: absolute;
+    top: 1%;
+    left: 10%;    
+    width: 100%;
+    height: 100%;
+}
+
+.overlay-image {
+    width: 100%; /* La imagen sobrepuesta también ocupa el 100% del contenedor */
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen se ajuste perfectamente al contenedor */
+    transition: transform 0.3s ease-in-out;
+}
+
+.overlay-image:hover {
+    transform: scale(1.1); /* Incrementa el tamaño de la imagen al hacer hover */
+}
+
+/* ============================== Footer ============================== */
+.footer-sitio{
+    color: #979797;
+}
+.copyright{
+    color: #979797;
+    font-size: 0.8rem;
+}
+
+/* ============================== NOSOTROS.HTML ============================== */
+.hero{
+    position: relative;
+}
+.hero h2{
+    position: absolute;
+    bottom: 2rem;
+    right: 0;
+    background-color: #3f948c;
+    font-family: 'Raleway';
+    font-weight: 900;
+    color: #ffffff;
+    font-size: 2.8rem;
+}
+.contenido-principal p{
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    font-family: 'Lato', sans-serif;
+}
+aside{
+    background-color: #3f948c;
+    color:#ffffff
+}
+
+/* ============================== NOSOTROS.HTML ============================== */
+.accordion-button{
+    background-color: #c96a90 !important;    
+}
+.accordion-button.btn-link{
+    color: white;
+    font-size: 1.8rem;
+    text-decoration: none;
+}
+.accordion-collapse .accordion-body{
+    font-size: 1.3rem;
+}
+.cupon{
+    border: 3px dashed #ffffff;
+    font-family: 'Lato' sans-serif;
+}
+.cupon .display-4{
+    font-size: 2rem;
+}
+.cupon p{
+    font-size: 1.2rem;
+}
