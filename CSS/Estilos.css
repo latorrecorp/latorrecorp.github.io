@@ -1,7 +1,7 @@
 body{    
     background: linear-gradient(rgba(0,0,0,0.5),rgb(0,0,0)), url('../Imágenes/Logos/FONDO.jpg');    
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 120vh; /* Asegura que el fondo cubra al menos la pantalla completa */
