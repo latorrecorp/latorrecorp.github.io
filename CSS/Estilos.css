@@ -151,7 +151,7 @@ body{
 @media (max-width: 576px) {
     .imagen-destacados {
       display: block;
-      margin: 20px auto;
+      margin: 30px auto;
       width: 100%; /* Asegurarte de que ocupe el ancho completo en móviles */
       height: auto; /* Ajustar la altura automáticamente */
     }
@@ -163,7 +163,7 @@ body{
   
     .destacados-info {
       margin: 0 auto;
-      margin-bottom: 10px; /* Agrega espacio entre la imagen y el botón */
+      margin-bottom: 15px; /* Agrega espacio entre la imagen y el botón */
       text-align: center; /* Centrar el botón en móviles */
     }
   }
