@@ -4,8 +4,8 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    min-height: 100vh; /* Asegura que el fondo cubra al menos la pantalla completa */
-    height: auto; /* Deja que la altura se ajuste según el contenido */
+    min-height: 120vh; /* Asegura que el fondo cubra al menos la pantalla completa */
+    height: 120%; /* Deja que la altura se ajuste según el contenido */
 }
 
 /* ============================== INDEX.HTML ============================== */
