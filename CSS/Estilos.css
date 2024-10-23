@@ -23,7 +23,7 @@ body{
     line-height: 2.4rem;
 }
 .subencabezado{
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
@@ -32,7 +32,7 @@ body{
                0px  1px 0px white,
               -1px  0px 0px white,
                0px -1px 0px white;
-    line-height: 5rem;
+    line-height: 4rem;
 }
 .fa-shopping-cart{
     font-size: 1.4rem;
