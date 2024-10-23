@@ -55,6 +55,11 @@ body{
 .sociales ul li a:hover{    
     color: #8f0408;
 }
+@media (max-width: 768px) {
+    .sociales ul li a {
+        font-size: 2rem; /* Ajusta el tamaño según lo necesario */
+    }
+}
 
 /* ============================== Navegación ============================== */
 .navegacion{
