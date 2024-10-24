@@ -8,6 +8,15 @@ body{
     height: 100%; /* Deja que la altura se ajuste según el contenido */
 }
 
+@font-face {
+    font-family: 'BD Cartoon Shout';
+    src: url(../Webfonts/BD_Cartoon_Shout/BD_Cartoon_Shout\ Edit1.ttf) format('truetype'),
+         url(../Webfonts/BD_Cartoon_Shout/bd_cartoon_shout-webfont.woff) format('woff'),
+         url(../Webfonts/BD_Cartoon_Shout/bd_cartoon_shout-webfont.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* ============================== INDEX.HTML ============================== */
 
 /* ============================== Encabezado ============================== */
@@ -25,7 +34,7 @@ body{
 }
 .subencabezado{
     font-size: 4rem;
-    font-family: "Lato", sans-serif;
+    font-family: 'BD Cartoon Shout', 'Arial', sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #03b0eb;
