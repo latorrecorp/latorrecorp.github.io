@@ -22,7 +22,7 @@ body{
 /* ============================== Encabezado ============================== */
 .encabezado{
     font-size: 3rem;
-    font-family: "Lato", sans-serif;
+    font-family: 'BD Cartoon Shout', sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #03b0eb;
@@ -34,7 +34,7 @@ body{
 }
 .subencabezado{
     font-size: 4rem;
-    font-family: 'BD Cartoon Shout', 'Arial', sans-serif;
+    font-family: 'BD Cartoon Shout', sans-serif;
     font-weight: 900;
     font-style: normal;
     color: #03b0eb;
