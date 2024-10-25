@@ -9,13 +9,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="CSS/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-      /* Mostrar el dropdown cuando se hace hover sobre el elemento padre */
-      .nav-item.dropdown:hover .dropdown-menu {
-        display: block;
-        margin-top: 0; /* Opcional: ajusta la posición del menú */
-      }
-    </style>
     <link rel="stylesheet" href="CSS/Estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +17,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="icon" href="Imágenes/Logos/Icono LC.ico" type="image/x-icon">      
+    <style>
+      /* Mostrar el dropdown cuando se hace hover sobre el elemento padre */
+      .nav-item.dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* Opcional: ajusta la posición del menú */
+      }
+    </style>
 </head>
 <body>
     <!-- Inicio Cabecera -->
@@ -97,6 +97,7 @@
               <li class="nav-item dropdown col-lg-2">
                 <a class="nav-link dropdown-toggle" href="#" target="_blank" id="navbarDropdown3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ropa</a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                  <li><a class="dropdown-item" href="en construccion.html" target="_blank">Gorras</a></li>
                   <li><a class="dropdown-item" href="polos.html" target="_blank">Polos</a></li>
                   <li><a class="dropdown-item" href="en construccion.html" target="_blank">Casacas</a></li>
                 </ul>
@@ -136,6 +137,78 @@
     </div>  
     <!-- Fin Navegación -->
     
+    <!-- Inicio Slider -->
+    <section class="nuevo-sitio pt-4 mt-4">
+      <h1 class="text-center text-uppercase subencabezado">
+        Cómic y Manga Peruano
+      </h1>      
+    </section>
+    <br>
+    <div class="container">
+      <div id="carouselExampleAutoplaying" class="carousel slide my-1" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Carousel 1 -->
+          <div class="carousel-item active">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/José Macedo Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">José Macedo Valencia</h3>
+            </div>
+          </div>
+          <!-- Carousel 2 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Estudios TAWA Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Estudios TAWA</h3>
+            </div>
+          </div>
+          <!-- Carousel 3 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Human Hero Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Human Hero</h3>
+            </div>
+          </div>
+          <!-- Carousel 4 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Punartz Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Punartz</h3>
+            </div>
+          </div>
+          <!-- Carousel 5 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Beyonders Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Beyonders</h3>
+            </div>
+          </div>
+          <!-- Carousel 6 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Masks Carrusel 2.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Masks</h3>
+            </div>
+          </div>
+          <!-- Carousel 7 -->
+          <div class="carousel-item">
+            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Oscar Osorio Carrusel.jpg" class="d-block w-100"></a>
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">OSCAR OSORIO</h3>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+    <!-- Fin Slider -->
+
     <!-- Productos destacados -->
     <section class="nuevo-sitio mt-4">
       <h1 class="text-center text-uppercase subencabezado">
@@ -188,53 +261,6 @@
       </div>
     </div>
     <!-- Fin Productos destacados -->
-
-    <!-- Inicio Slider -->
-    <section class="nuevo-sitio pt-4 mt-4">
-      <h1 class="text-center text-uppercase subencabezado">
-        Cómic y Manga Peruano
-      </h1>      
-    </section>
-    <br>
-    <div class="container">
-      <div id="carouselExampleAutoplaying" class="carousel slide my-1" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Estudios TAWA Carrusel.jpg" class="d-block w-100"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Estudios TAWA</h3>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Human Hero Carrusel.jpg" class="d-block w-100"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Human Hero</h3>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Punartz Carrusel.jpg" class="d-block w-100"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Punartz</h3>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <a href="#" target="_blank"><img src="Imágenes/Carrusel/Masks Carrusel.png" class="d-block w-100"></a>
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase">Masks</h3>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Anterior</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Siguiente</span>
-        </button>
-      </div>
-    </div>
-    <!-- Fin Slider -->
     
     <!-- Inicio Novedades -->
     <section class="novedades container py-4">
